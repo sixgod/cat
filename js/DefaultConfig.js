@@ -14,10 +14,65 @@ var DefaultConfig = {
         goCountryList:[],
         minFood:300
     },
-    build: {},
+    build: {
+        buildUpdate:false,
+        Granary:false,
+        Paddy:false,
+        Treasury:false,
+        newBuild:false,
+        map:{
+            map10:{
+                buildT:'paddy',
+                isbuild:false
+            },
+            map01:{
+                buildT:'food',
+                isbuild:false
+            },
+            map05:{
+                buildT:'food',
+                isbuild:false
+            },
+            map07:{
+                buildT:'storage',
+                isbuild:false
+            },
+            map16:{
+                buildT:'sky',
+                isbuild:false
+            },
+            map17:{
+                buildT:'wind',
+                isbuild:false
+            },
+            map18:{
+                buildT:'water',
+                isbuild:false
+            },
+            map11:{
+                buildT:'storage',
+                isbuild:false
+            },
+            map13:{
+                buildT:'earth',
+                isbuild:false
+            },
+            map02:{
+                buildT:'paddy',
+                isbuild:false
+            }
+        }
+
+    },
     deck: {},
     trade: {},
-    card: {},
+    card: {
+        cardUpdate:false,
+        minResources:"600,600,600,600,600",
+        cardName:"",
+        cardAttr:"fire",
+        updateAddress:""
+    },
     other:{
         autoChangePage:false,
         autoRunInterval:30,
